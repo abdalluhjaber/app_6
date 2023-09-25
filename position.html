@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        /* Static Position */
+        .static-example {
+            position: static;
+            border: 2px solid blue;
+            padding: 10px;
+            width: 200px;
+        }
+
+        /* Relative Position */
+        .relative-example {
+            position: relative;
+            border: 2px solid red;
+            padding: 10px;
+            width: 200px;
+            top: 20px;
+            left: 30px;
+        }
+
+        /* Fixed Position */
+        .fixed-example {
+            position: fixed;
+            border: 2px solid green;
+            padding: 10px;
+            width: 200px;
+            top: 50px;
+            right: 30px;
+        }
+
+        /* Absolute Position */
+        .absolute-container {
+            position: relative;
+            width: 300px;
+            height: 200px;
+            border: 1px solid black;
+        }
+
+        .absolute-example {
+            position: absolute;
+            border: 2px solid orange;
+            padding: 10px;
+            width: 100px;
+            top: 50px;
+            left: 50px;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>Static Position</h2>
+    <div class="static-example">
+        This is a static positioned element.
+    </div>
+
+    <h2>Relative Position</h2>
+    <div class="relative-example">
+        This is a relatively positioned element.
+    </div>
+
+    <h2>Fixed Position</h2>
+    <div class="fixed-example">
+        This is a fixed positioned element.
+    </div>
+
+    <h2>Absolute Position</h2>
+    <div class="absolute-container">
+        <div class="absolute-example">
+            This is an absolutely positioned element.
+        </div>
+    </div>
+</body>
+
+</html>
